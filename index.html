@@ -1,6 +1,108 @@
-<titile> My website </titile>
-<head:>
-  15 years
-  10-05-2008
-  Dominican
-</head:>
+<html>
+  <head>
+	<title>My Favorite animal is dog</title>
+	<link rel="stylesheet" href="styles.css">
+    <style>
+      
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: navy;
+  color: yellow;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+
+.intro {
+  background-color: pink;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery img {
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  background-color: yellow;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info li {
+  margin-bottom: 10px;
+}
+
+.info a {
+  color: black;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: black;
+}
+
+
+    </style>
+  </head>
+  <body>
+	<header>
+  	<h1>My Favorite animal is dog</h1>
+  	<h2>cute dogs!</h2>
+	</header>
+	<main>
+  	<p>If you love dogs this website is for you.</p>
+  	<br>
+  	<p class="intro">photos of beautiful puppies</p>
+  	<div class="gallery">
+    	<img src="https://static.fundacion-affinity.org/cdn/farfuture/PVbbIC-0M9y4fPbbCsdvAD8bcjjtbFc0NSP3lRwlWcE/mtime:1643275542/sites/default/files/los-10-sonidos-principales-del-perro.jpg" alt="image 1" width="200" height="150">
+    	<img src="https://t3.ftcdn.net/jpg/06/74/28/82/360_F_674288206_DAldcIjTKBPdZdtbpXUfjU933zRAOP42.jpg" alt="Image 2" width="200" height="150">
+    	<img src="https://as2.ftcdn.net/v2/jpg/00/43/60/21/1000_F_43602118_O6hwgRvBAAqPuWVH5AlWN348Jf6XKPmY.jpg" alt="Image 3" width="200" height="150">
+    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwwUMIr913PmLYejl4OMPr0Fo5l2fAoGq7xYhBGR5Ow&s" alt="Image 1" width="200" height="150">
+    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Chihuahuas-_Holly%2C_Nina%2C_Doralice.jpg/1200px-Chihuahuas-_Holly%2C_Nina%2C_Doralice.jpg" alt="Image 2" width="200" height="150">
+    	<img src="https://s1.elespanol.com/2022/03/16/curiosidades/mascotas/657694610_222735436_1706x960.jpg" alt="Image 3" width="200" height="150">
+  	</div>
+  	<section class="info">
+    	<h3>Links</h3>
+      	<a href="https://youtu.be/rsTLyukvxGU">youtube link</a>
+      	<br>
+      	<a href="https://youtu.be/sFbt7Icd9RI?t=8">youtube link</a>
+     	 
+    	</p>
+  	</section>
+	</main>
+  </body>
+</html>
